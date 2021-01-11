@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
-
-
-# In[155]:
-
 
 def numero_ilhas(mapa):
     """ Devolve o numero de ilhas no mapa (considere vizinança 4-conexa)
@@ -57,10 +47,6 @@ def numero_ilhas(mapa):
                 n += 1
 
     return n
-
-
-# In[156]:
-
 
 def quantidade_de_terra_afetada(mapa, i, j):
     """Calcula o numero de pontos de solo do mapa que podem ser afetados 
